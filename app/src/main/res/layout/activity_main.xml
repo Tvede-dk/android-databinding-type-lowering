@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/failing_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+
+        <typelowering.databinding.test.com.typelowering.MyRelativeLayout
+            android:id="@+id/failing_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </typelowering.databinding.test.com.typelowering.MyRelativeLayout>
+
+
+        <FrameLayout
+            android:id="@+id/failing_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/failing_4"/>
+
+    </LinearLayout>
+</layout>
